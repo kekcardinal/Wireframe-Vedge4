@@ -1,0 +1,22 @@
+.marquise {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquise .texte {
+    position: absolute;
+    width: 150%;
+    transform: translateX(100%);
+    animation: animation_marquise 20s linear infinite;
+}
+
+@keyframes animation_marquise {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

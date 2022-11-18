@@ -1,0 +1,26 @@
+.hero {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    /* width: 92vw; */
+    height: 77vh;
+    background-image: url("https://media4.giphy.com/media/3oEhmIDWKdv2yZAaTm/giphy.gif?cid=ecf05e476ivcgsz3tyj1atrl2n021p0doaa38nag89pa0zc2&rid=giphy.gif&ct=g");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+
+.hero_logo {
+    margin: auto;
+    text-align: center;
+    width: 40vw;
+    padding: 5vw;
+    font-family: sans-serif;
+    border: 4px solid white;
+    border-radius: 50px;
+}
